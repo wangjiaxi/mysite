@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+body,
+html {
+    background-color: #414141;
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #222222;
+    position: relative;
+}
+
+#main {
+    width: 97%;
+    height: 94%;
+    margin: 20px;
+    background-color: #FFF;
+}
+
+.hero-image-parent {
+    position: relative;
+    height: 320px;
+    width: 320px;
+    margin: 50px auto 25px;
+    border-radius: 50%;
+    border: 1px dashed #414141;
+}
+
+.hero-image-holder {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin: 35px auto;
+}
+
+.hero-image.hero_animate {
+    width: 250px;
+    height: 250px;
+    background-size: 100% 100%;
+    margin: -125px 0 0 -125px;
+    border-radius: 50%;
+}
+
+.hero-image {
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.zero_margin {
+    margin: 0;
+}
+
+.name-box,
+.main-title,
+.tc {
+    text-align: center;
+}
+
+.mm {
+    margin-top: 30px;
+}
+
+.pb {
+    padding-bottom: 35px;
+}
+
+.medu {
+    margin-top: -5px;
+}
+
+.titled {
+    background: rgba(0, 0, 0, 0.06);
+    padding: 15px;
+    text-align: center;
+    display: block;
+}
+
+.titled h5 {
+    font-size: 20px;
+    line-height: 1.4em;
+    color: #222;
+    font-weight: normal;
+    margin: 0;
+}
+
+h5.about_subtitle {
+    font-size: 24px;
+    margin: 0 0 5px 0;
+    color: #222;
+    padding: 0 10px 0 0;
+    line-height: 1.2em;
+}
+
+.pos {
+    color: #414141;
+    position: absolute;
+    display: block;
+    height: 43px;
+    width: 43px;
+    background-color: #fff;
+    border: 1px solid #DDD;
+    border-radius: 50%;
+    z-index: 100;
+    /*You can make some css3 animations here*/
+    /*	-webkit-transition: all .25s linear;
+	   -moz-transition: all .25s linear;
+	    -ms-transition: all .25s linear;
+	     -o-transition: all .25s linear;
+	        transition: all .25s linear;*/
+    
+    opacity: 1;
+}
+
+.pos_1 {
+    top: 220px;
+    left: -5px;
+    background-position: -1px 6px;
+}
+
+.pos_2 {
+    top: 280px;
+    left: 65px;
+    background-position: -3px 7px;
+}
+
+.pos_3 {
+    top: 280px;
+    right: 65px;
+    background-position: -3px 6px;
+}
+
+.pos_4 {
+    top: 220px;
+    right: -5px;
+    background-position: -5px 7px;
+}
+
+.pos span {
+    font-size: 20px;
+    padding: 10px 12px;
+    text-align: center
+}
+
+.pos:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.bio h2,
+.bio p {
+    color: #414141;
+    font-family: 'Josefin Sans';
+    font-size: 26px;
+}
+
+.bio h2 {
+    font-weight: bold;
+}
+
+.bio p {
+    font-size: 18px;
+}
+// text-transform: capitalize;
